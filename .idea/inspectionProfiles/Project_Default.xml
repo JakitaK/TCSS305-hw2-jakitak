@@ -161,7 +161,6 @@
     <inspection_tool class="CssInvalidHtmlTagReference" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="CssInvalidImport" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="CssInvalidMediaFeature" enabled="false" level="ERROR" enabled_by_default="false" />
-    <inspection_tool class="CssInvalidNestedSelector" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="CssInvalidPropertyValue" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="CssInvalidPseudoSelector" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="CssMissingComma" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -726,7 +725,7 @@
       <extension name="AbstractClassNamingConvention" enabled="true" />
       <extension name="ClassNamingConvention" enabled="true">
         <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
-        <option name="m_minLength" value="4" />
+        <option name="m_minLength" value="3" />
         <option name="m_maxLength" value="64" />
       </extension>
       <extension name="EnumeratedClassNamingConvention" enabled="true">
@@ -814,7 +813,6 @@
     </inspection_tool>
     <inspection_tool class="QsPrivateBeanMembersInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="QsProperties" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="QsUndeclaredPathMimeTypesInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="QsYaml" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="QuickFixGetFamilyNameViolation" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ReactiveStreamsNullableInLambdaInTransform" enabled="false" level="WARNING" enabled_by_default="false" />
